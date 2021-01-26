@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ionic App ToolKit</title>
+    <!-- <script src="https://kit.fontawesome.com/1935d064dd.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media-query.css">
+</head>
+
+<body>
+    <div class="all">
+        <header>
+            <div class="container">
+                <nav>
+                    <ul id="nav-ul">
+                        <li class="nav-li">
+                            <img style="width: 30px" src="images/ionic logo.png" alt="">
+                            <label for="" class="menu">-- Ionic App ToolKit --</label>
+                        </li>
+                        <!-- MENU STARTS HERE -->
+                        <li class="nav-li active">
+                            <label>What is Ionic Framework</label>
+                            <a href="#about" id="intro" class="link" data-filter="content-intro">Introduction</a>
+                        </li>
+                        <li class="nav-li">
+                            <label>Step 1</label>
+                            <a href="#resume" class="link" data-filter="content-one">Environment Setup</a>
+                        </li>
+                        <li class="nav-li">
+                            <label>Step 2</label>
+                            <a href="#portfolio" class="link" data-filter="content-two">Install Ionic CLI</a>
+                        </li>
+                        <li class="nav-li">
+                            <label>Step 3</label>
+                            <a href="#blog" class="link" data-filter="content-three">Create an Ionic App</a>
+                        </li>
+                        <li class="nav-li">
+                            <label>Step 4</label>
+                            <a href="#" class="link" data-filter="content-four">Create Pages</a>
+                        </li>
+                        <li class="nav-li">
+                            <label>Step 5</label>
+                            <a href="#" class="link" data-filter="content-five">Page UI Components</a>
+                        </li>
+                        <li class="nav-li">
+                            <label>Step 6</label>
+                            <a href="#" class="link" data-filter="content-six">Set New Home-Page</a>
+                        </li>
+                        <li class="nav-li">
+                            <label>Step 7</label>
+                            <a href="#" class="link" data-filter="content-seven">Close app on Back Button Click</a>
+                        </li>
+                        <li class="nav-li">
+                            <label>Step 8</label>
+                            <a href="#" class="link" data-filter="content-eight">Set App Icon & Splash Screen</a>
+                        </li>
+                        <li class="nav-li">
+                            <label>Step 9</label>
+                            <a href="#" class="link" data-filter="content-nine">Google Admob Setup</a>
+                        </li>
+                        <li class="nav-li">
+                            <label>Step 10</label>
+                            <a href="#" class="link" data-filter="content-ten">Test on Emulator/Device</a>
+                        </li>
+                        <li class="nav-li">
+                            <label>Step 11</label>
+                            <a href="#" class="link" data-filter="content-eleven">Build Signed APK</a>
+                        </li>
+                        <li class="nav-li">
+                            <label>Step 12</label>
+                            <a href="#" class="link" data-filter="content-twelve">Troubleshoot</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Content Section -->
+        <section>
+            <div class="container main-container">
+
+                <div class="content-all">
+                    <!-- Content Intro -->
+                    <div class="content content-intro" id="about">
+                        <div class="content-header">
+                            <h2><span>Introduction</span>.</h2>
+                            <p>What is ionic Framework?</p>
+                        </div>
+                        <div class="content-details">
+                            <div style="width: 200px;">
+                                <img src="/images/ionic logo.png" alt="">
+                            </div>
+                            <h2>What is ionic Framework?</h2>
+                            <p>
+                                Ionic Framework is an open source toolkit for building performant, high-quality mobile and desktop apps using web technologies.
+                                <br><br> Ionic Framework can build apps for both Android, iOS and Desktop. <br> Ionic app can be integrated and monitized with Google Admob.
+                            </p>
+                            <a href="https://ionicframework.com/" target="_blank">Visit Ionic Framework</a>
+
+                            <div class="content-line"></div>
+                            <h2>In this course, you would learn how to </h2>
+                            <ol type="1">
+                                <li>1. Create content-driven Android Apps using the ionic Framework.</li>
+                                <li>2. Monetize the app with Google Admob</li>
+                                <li>3. Get my eBook on “Principles of Content Development” (FREE) </li>
+                            </ol>
+                            <div class="content-line"></div>
+                            <h2>Types of Mobile Apps </h2>
+                            <p>- Based on 1. Device || 2. Code || 3. Content</p>
+                            <h3>&rarr; Device</h3>
+                            <ol>
+                                <li>1. Android</li>
+                                <li>2. iOS</li>
+                            </ol>
+                            <h3>&rarr; Code</h3>
+                            <ol>
+                                <li>1. Native</li>
+                                <li>2. Hybrid</li>
+                            </ol>
+                            <h3>&rarr; Structure</h3>
+                            <ol>
+                                <li>1. Function-Driven Apps. i.e Photo Editor App</li>
+                                <li>2. Content-Driven Apps i.e Health and Wellness App.</li>
+                            </ol>
+
+                        </div>
+                    </div>
+
+                    <!-- Content One -->
+                    <div class="content content-one" id="resume">
+                        <div class="content-header">
+                            <h2><span>Environment</span> Setup</h2>
+                            <p>Download all you need to create ionic apps</p>
+                        </div>
+                        <div class="content-details">
+                            <h2>List of softwares needed to create Ionic Android Apps</h2>
+                            <p>1. NodeJS and NPM: &rarr; <a href="https://nodejs.org/en/" target="_blank">Download</a></p>
+                            <br>
+                            <p>2. Visual Studio Code: &rarr; <a href="https://code.visualstudio.com/" target="_blank">Download</a></p>
+                            <br>
+                            <p>3. Java Dev Kit: &rarr; <a href="https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html" target="_blank">Download JDK</a> | <a href="https://www.oracle.com/java/technologies/javase-jre8-downloads.html" target="_blank">Download JRE</a></p>
+                            <p>Add path to Environment/system variables</p>
+                            <br>
+                            <p>4. Android Studio: &rarr; <a href="https://developer.android.com/studio/" target="_blank">Download</a></p>
+                            <br>
+                            <p>5. Gradle: &rarr; <a href="https://gradle.org/releases/" target="_blank">Download</a></p>
+                            <p>Add path to Environment/system variables</p>
+
+                        </div>
+                    </div>
+
+                    <!-- Content Two -->
+                    <div class="content content-two" id="portfolio">
+                        <div class="content-header">
+                            <h2><span>Install</span> Ionic CLI</h2>
+                            <p>Ionic CLI installation</p>
+                        </div>
+                        <div class="content-details">
+                            <h2>What does CLI mean?</h2>
+                            <p>CLI: Command Line Interface.</p>
+                            <p>CLI is a program that accepts text input to execute various functions.</p>
+                            <p class="bold">Windows: CMD || MAC: Terminal</p>
+                            <div class="content-line"></div>
+                            <h2>Copy to the Command prompt/Terminal and hit "Enter"</h2>
+                            <br>
+                            <!-- Check NodeJS Version -->
+                            <div class="card">
+                                <h3>Check NodeJS Version</h3>
+                                <iframe src="https://www.thiscodeworks.com/embed/5ffa1049fe296a0014fea1ed" style="width: 100%; height: 98px;" frameborder="0" __idm_frm__="2354"></iframe>
+                            </div>
+                            <!-- Check NPM Version -->
+                            <div class="card">
+                                <h3>Check NPM Version</h3>
+                                <iframe src="https://www.thiscodeworks.com/embed/5ffa217dfe296a0014fea1ef" style="width: 100%; height: 98px;" frameborder="0" __idm_frm__="2368"></iframe>
+                            </div>
+                            <!-- Install Ionic CLI -->
+                            <div class="card">
+                                <h3>Install Ionic CLI</h3>
+                                <iframe src="https://www.thiscodeworks.com/embed/5ffa2252fe296a0014fea1f0" style="width: 100%; height: 98px;" frameborder="0" __idm_frm__="2381"></iframe>
+                            </div>
+                            <p><span class="bold">NOTE:</span> If there was a previous installation of the Ionic CLI, it will need to be uninstalled due to a change in package name.</p>
+                            <p><span class="bold">Uninstall Previous Ionic Version:</span> npm uninstall -g ionic</p>
+                        </div>
+                    </div>
+
+                    <!-- Content Three -->
+                    <div class="content content-three" id="blog">
+                        <div class="content-header">
+                            <h2><span>Create an Ionic</span> App</h2>
+                            <p>Create an app with the command</p>
+                        </div>
+                        <div class="content-details">
+                            <h2>Create an app</h2>
+                            <p>Copy to the Command prompt/Terminal and hit "Enter"</p>
+                            <div class="content-line"></div>
+                            <div class="card">
+                                <p class="bold">Details needed for your app</p>
+                                <ol>
+                                    <li>1. FrameWork - Angular || React || Vues</li>
+                                    <li>2. App Name</li>
+                                    <li>3. Layout - Blank || Tabs || Sidemenu</li>
+                                    <li>4. Cordova or Capacitor</li>
+                                </ol>
+                                <h3>Create an Ionic App</h3>
+                                <iframe src="https://www.thiscodeworks.com/embed/5ffa25e9fe296a0014fea1f1" style="width: 100%; height: 98px;" frameborder="0" __idm_frm__="2436"></iframe>
+                            </div>
+                            <div class="card">
+                                <h3>Move into the app directory</h3>
+                                <iframe src="https://www.thiscodeworks.com/embed/5ffa2c45fe296a0014fea1f3" style="width: 100%; height: 98px;" frameborder="0" __idm_frm__="2538"></iframe>
+                            </div>
+                            <div class="card">
+                                <h3>Add Android platform to your app</h3>
+                                <iframe src="https://www.thiscodeworks.com/embed/6000ac248788870014688cc6" style="width: 100%; height: 98px;" frameborder="0" __idm_frm__="2611"></iframe>
+                            </div>
+
+                            <div class="card">
+                                <h3>Launch the app in the Browser</h3>
+                                <iframe src="https://www.thiscodeworks.com/embed/5ffa2ceffe296a0014fea1f4" style="width: 100%; height: 98px;" frameborder="0" __idm_frm__="2565"></iframe>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Contact Four -->
+                    <div class="content content-four" id="contact">
+                        <div class="content-header">
+                            <h2><span>Create a</span> page</h2>
+                            <p>How to create a page in ionic app</p>
+                        </div>
+                        <div class="content-details">
+
+                            <h2>Generate a page with the command below</h2>
+                            <div class="content-line"></div>
+                            <div class="card">
+                                <h3>Create a Ionic app page</h3>
+                                <p>The last value "home" is the page name.</p>
+                                <iframe src="https://www.thiscodeworks.com/embed/5ffa2b83fe296a0014fea1f2" style="width: 100%; height: 98px;" frameborder="0" __idm_frm__="2577"></iframe>
+                                <hr class="line2">
+                                <p>Create other pages inside a seperate folder named <span class="code">pages</span></p>
+                                <iframe src="https://www.thiscodeworks.com/embed/600858c5590556001498bb6c" style="width: 100%; height: 98px;" frameborder="0" __idm_frm__="1728"></iframe>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CONTENT FIVE -->
+                    <div class="content content-five" id="contact">
+                        <div class="content-header">
+                            <h2 id="top"><span>Page UI</span> Components</h2>
+                            <p>Everything to help you design your page</p>
+                            <div class="c-menu">
+                                <ul>
+                                    <li>
+                                        <a href="#ion-card">Card</a></li>
+                                    <li>
+                                        <a href="#ion-text">Text</a></li>
+                                    <li><a href="#ion-image">Image</a></li>
+                                    <li><a href="#ion-audio">Audio</a></li>
+                                    <li><a href="#ion-video">Video</a></li>
+                                    <li><a href="#ion-button">Button</a></li>
+                                    <li><a href="#ion-icons">Icons</a></li>
+                                    <li><a href="#ion-links">Link</a></li>
+                                    <li><a href="#ion-break">Line-Break</a></li>
+                                    <li><a href="#ion-line">Line</a></li>
+                                    <li><a href="#ion-list">List</a></li>
+                                    <li><a href="#ion-list-menu">List Menu</a></li>
+                                    <li><a href="#ion-grid">Grid</a></li>
+                                    <li><a href="#ion-colors">Colors</a></li>
+                                    <li><a href="#ion-header">Header</a></li>
+                                    <li><a href="#ion-position">Position</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="content-details">
+                            <a href="#top" class="top">Back To Top</a>
+                            <h2>Essential UI Components</h2>
+                            <P>Below is a list of essential components to help you build a simple User Interface for your Ionic App</P>
+                            <P>Visit <a href="https://ionicframework.com/docs/components" target="_blank">&rarr; Ionic Docs</a> for a complete list of components.</P>
+                            <div class="content-line"></div>
+
+
+                            <!-- Card UI Component -->
+                            <div class="card" id="ion-card">
+                                <div class="comp">
+                                    <div>
+                                        <h3>-- Card --</h3>
+                                        <p>An ionic component that holds other components, like a container.</p>
+                                        <hr class="line">
+                                        <iframe src="https://www.thiscodeworks.com/embed/5ffefd150c8c140014566a41" style="width: 100%; height: 251px;" frameborder="0" __idm_frm__="1555"></iframe>
+                                        <hr class="line">
+                                        <p>-- To remove the border around the card add <span class="code">style="box-shadow: none;"</span> to the "card" opening tag.</p>
+                                        <p>-- Set card color: <span class="code">color="dark"</span></p>
+
+                                        <br>
+                                        <iframe src="https://www.thiscodeworks.com/embed/5fff0aeb0c8c140014566a44" style="width: 100%; height: 134px;" frameborder="0" __idm_frm__="1702"></iframe>
+                                    </div>
+                                    <img src="images/card-UI.png" alt="">
+                                </div>
+                            </div>
+                            <div class="content-line"></div>
+
+
+                            <!-- Text UI Components -->
+                            <div class="card" id="ion-text">
+                                <div class="comp">
+                                    <div>
+                                        <h3>-- Text --</h3>
+                                        <p>An ionic component that adds text to a page</p>
+                                        <hr class="line">
+                                        <iframe src="https://www.thiscodeworks.com/embed/5fff112d0c8c140014566a46" style="width: 100%; height: 164px;" frameborder="0" __idm_frm__="1910"></iframe>
+
+                                    </div>
+                                    <img src="images/text-UI.png" alt="">
+                                </div>
+                            </div>
+                            <div class="content-line"></div>
+
+                            <!-- Image UI -->
+                            <div class="card" id="ion-image">
+                                <div class="comp">
+                                    <div>
+                                        <h3>-- Image --</h3>
+                                        <p>An ionic component that add an image to a page.</p>
+
+                                        <hr class="line">
+                                        <iframe src="https://www.thiscodeworks.com/embed/600019cca6d1240014fbed16" style="width: 100%; height: 98px;" frameborder="0" __idm_frm__="491"></iframe>
+                                        <hr class="line">
+                                        <p>-- Locate your assets folder: <span class="code">AppFolder > src > assets</span></p>
+                                        <p>-- Create an <span class="code">images</span> folder within the <span class="code">assets</span> folder, then place your images within the <span class="code">images</span> folder you just created</p>
+                                    </div>
+                                    <img src="images/image-UI.png" alt="">
+                                </div>
+                            </div>
+                            <div class="content-line"></div>
+
+                            <!-- AUDIO -->
+                            <div class="card" id="ion-audio">
+                                <div class="comp">
+                                    <div>
+                                        <h3>-- Audio --</h3>
+                                        <p>An ionic component that add an audio file to a page.</p>
+
+                                        <hr class="line">
+                                        <iframe src="https://www.thiscodeworks.com/embed/60005304a6d1240014fbed20" style="width: 100%; height: 98px;" frameborder="0" __idm_frm__="1048"></iframe>
+                                        <hr class="line">
+                                        <p>-- Locate your assets folder: <span class="code">AppFolder > src > assets</span></p>
+                                        <p>-- Create an <span class="code">audio</span> folder within the <span class="code">assets</span> folder, then place your audio file within the <span class="code">audio</span> folder you just created</p>
+                                    </div>
+                                    <img src="images/audio-UI.png" alt="">
+                                </div>
+                            </div>
+                            <div class="content-line"></div>
+
+                            <!-- Embed YouTube Video -->
+                            <div class="card" id="ion-video">
+                                <div class="comp">
+                                    <div>
+                                        <h3>-- Embed YouTube Video --</h3>
+                                        <p>To embed a YouTube video, go to YouTube and click share, then copy the embed code.</p>
+                                        <hr class="line">
+
+                                    </div>
+                                    <img src="images/video-UI.png" alt="">
+                                </div>
+                            </div>
+                            <div class="content-line"></div>
+
+                            <!-- Button UI -->
+                            <div class="card" id="ion-button">
+                                <div class="comp">
+                                    <div>
+                                        <h3>-- Button --</h3>
+                                        <p>An ionic component that adds a button to a page</p>
+                                        <hr class="line">
+                                        <iframe src="https://www.thiscodeworks.com/embed/60001dbba6d1240014fbed17" style="width: 100%; height: 118px;" frameborder="0" __idm_frm__="592"></iframe>
+                                        <hr class="line">
+                                        <h3>Button style attributes</h3>
+                                        <p><span class="code">expand="block"</span> : Makes the button full width.</p>
+                                        <p><span class="code">routerLink="page-name"</span> : Navigate to another page when the button is clicked.</p>
+                                        <p><span class="code">color="primary"</span> : Sets the color of the button. <a href="#">See </a></p>
+                                    </div>
+                                    <img src="images/button-UI.png" alt="">
+                                </div>
+                            </div>
+                            <div class="content-line"></div>
+
+                            <!-- ICONS -->
+                            <div class="card" id="ion-icons">
+                                <div class="comp">
+                                    <div>
+                                        <h3>-- Icons --</h3>
+                                        <p>An ionic component that adds an icon to the page.</p>
+                                        <hr class="line">
+                                        <iframe src="https://www.thiscodeworks.com/embed/60006a6da6d1240014fbed25" style="width: 100%; height: 98px;" frameborder="0" __idm_frm__="1480"></iframe>
+                                        <hr class="line">
+                                        <p>See all icons: <a href="https://ionicons.com/" target="_blank">&rarr; Ionicons</a></p>
+                                    </div>
+                                    <img src="images/icon-UI.png" alt="">
+                                </div>
+                            </div>
+                            <div class="content-line"></div>
+
+                            <!-- EXTERNAL LINK -->
+                            <div class="card" id="ion-links">
+                                <div class="comp">
+                                    <div>
+                                        <h3>-- External Link --</h3>
+                                        <p>An ionic component that open a link or website in the browser</p>
+                                        <hr class="line">
+                                        <iframe src="https://www.thiscodeworks.com/embed/600047d0a6d1240014fbed1d" style="width: 100%; height: 98px;" frameborder="0" __idm_frm__="793"></iframe>
+                                    </div>
+                                    <img src="images/link-UI.png" alt="">
+                                </div>
+                            </div>
+                            <div class="content-line"></div>
+
+                            <!-- Line Break -->
+                            <div class="card" id="ion-break">
+                                <div class="comp">
+                                    <div>
+                                        <h3>-- Line Break/Space</h3>
+                                        <p>An component that creates space or move text to a new line.</p>
+                                        <hr class="line">
+                                        <iframe src="https://www.thiscodeworks.com/embed/60004ef8a6d1240014fbed1f" style="width: 100%; height: 98px;" frameborder="0" __idm_frm__="987"></iframe>
+                                    </div>
+                                    <img src="images/line-break-UI.png" alt="">
+                                </div>
+                            </div>
+                            <div class="content-line"></div>
+
+                            <!-- Horizontal line -->
+                            <div class="card" id="ion-line">
+                                <div class="comp">
+                                    <div>
+                                        <h3>-- Horizontal Line --</h3>
+                                        <p>An component that add a line to the page</p>
+                                        <hr class="line">
+                                        <iframe src="https://www.thiscodeworks.com/embed/60004daaa6d1240014fbed1e" style="width: 100%; height: 108px;" frameborder="0" __idm_frm__="941"></iframe>
+                                    </div>
+                                    <img src="images/line-UI.png" alt="">
+                                </div>
+                            </div>
+                            <div class="content-line"></div>
+
+                            <!-- List Item -->
+                            <div class="card" id="ion-list">
+                                <div class="comp">
+                                    <div>
+                                        <h3>-- List --</h3>
+                                        <p>An ionic component that adds a list to your page.</p>
+                                        <hr class="line">
+                                        <iframe src="https://www.thiscodeworks.com/embed/60005824a6d1240014fbed21" style="width: 100%; height: 307px;" frameborder="0" __idm_frm__="1241"></iframe>
+                                    </div>
+                                    <img src="images/list-UI.png" alt="">
+                                </div>
+                            </div>
+                            <div class="content-line"></div>
+
+                            <!-- List Menu Item -->
+                            <div class="card" id="ion-list-menu">
+                                <div class="comp">
+                                    <div>
+                                        <h3>-- List Menu --</h3>
+                                        <p>An ionic component that adds a list menu to your page.</p>
+                                        <hr class="line">
+                                        <iframe src="https://www.thiscodeworks.com/embed/60079915d016b700147cef10" style="width: 100%; height: 297px;" frameborder="0" __idm_frm__="430"></iframe>
+                                    </div>
+                                    <img src="images/list-menu-UI.png" alt="">
+                                </div>
+                            </div>
+                            <div class="content-line"></div>
+
+                            <!-- IONIC GRID -->
+                            <div class="card" id="ion-grid">
+                                <div class="comp">
+                                    <div>
+                                        <h3>-- Grid --</h3>
+                                        <p>An ionic component that adds a grid to a page.</p>
+                                        <hr class="line">
+                                        <iframe src="https://www.thiscodeworks.com/embed/6000663ea6d1240014fbed24" style="width: 100%; height: 359px;" frameborder="0" __idm_frm__="1364"></iframe>
+                                    </div>
+                                    <img src="images/grid-UI.png" alt="">
+                                </div>
+                            </div>
+                            <div class="content-line"></div>
+
+                            <!-- colors -->
+                            <div class="card" id="ion-colors">
+                                <div class="comp">
+                                    <div>
+                                        <h3>-- Ionic Default Colors --</h3>
+                                        <p>A list of default colors in ionic framework</p>
+                                        <p>Add <span class="code">color="primary"</span> to the opening tag.</p>
+                                        <hr class="line">
+                                        <img src="images/color-UI.PNG" alt="" style="width: 100%;">
+                                        <hr class="line2">
+                                        <p>-- To Create custom color variable, visit <a href="https://ionicframework.com/docs/theming/colors" target="_blank">Ionic Colors</a></p>
+                                        <p>-- Navigate to <span class="code">AppFolder > src > theme > variable.scss</span> and paste in the generated color</p>
+                                    </div>
+                                    <img src="images/dark-UI.png" alt="">
+                                </div>
+                            </div>
+                            <div class="content-line"></div>
+
+                            <!-- HEADER -->
+                            <div class="card" id="ion-header">
+                                <div class="comp">
+                                    <div>
+                                        <h3>-- Header --</h3>
+                                        <p>An ionic component that creates an app header</p>
+                                        <hr class="line">
+                                        <iframe src="https://www.thiscodeworks.com/embed/60020de31edee80014c87972" style="width: 100%; height: 248px;" frameborder="0" __idm_frm__="1209"></iframe>
+                                    </div>
+                                    <img src="images/header-UI.png" alt="">
+                                </div>
+                            </div>
+                            <div class="content-line"></div>
+
+                            <!-- Position content -->
+                            <div class="card" id="ion-position">
+                                <div class="comp">
+                                    <div>
+                                        <h3>-- Position Content --</h3>
+                                        <p>An ionic component that position content on a page</p>
+                                        <hr class="line">
+                                        <iframe src="https://www.thiscodeworks.com/embed/6007aa5cd016b700147cef11" style="width: 100%; height: 167px;" frameborder="0" __idm_frm__="1133"></iframe>
+                                    </div>
+                                    <img src="images/center-UI.png" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Content Six -->
+                    <div class="content content-six">
+                        <div class="content-header">
+                            <h2><span>Set</span> New Home-Page</h2>
+                            <p>Step</p>
+                        </div>
+                        <div class="content-details">
+                            <h2>To Set a New Home Page</h2>
+                            <p>Follow the instructions below</p>
+                            <hr class="line">
+                            <div class="card">
+                                <p>1. Create a page <span class="code">ionic generate page home</span></p>
+                                <iframe src="https://www.thiscodeworks.com/embed/5ffa2b83fe296a0014fea1f2" style="width: 100%; height: 98px;" frameborder="0" __idm_frm__="2049"></iframe>
+                                <hr class="line2">
+                                <p>2. Go to <span class="code">AppFolder > src > app > app.compoment.ts</span> and import "Router"</p>
+                                <iframe src="https://www.thiscodeworks.com/embed/60009443a6d1240014fbed28" style="width: 100%; height: 98px;" frameborder="0" __idm_frm__="2051"></iframe>
+                                <hr class="line2">
+                                <p>3. Add the router to <span class="code">constructor( )</span></p>
+                                <iframe src="https://www.thiscodeworks.com/embed/60009502a6d1240014fbed29" style="width: 100%; height: 98px;" frameborder="0" __idm_frm__="2097"></iframe>
+                                <hr class="line2">
+                                <p>4. Add the code below to the <span class="code">initializeApp( ) { }</span> section.</p>
+                                <iframe src="https://www.thiscodeworks.com/embed/6000986ea6d1240014fbed2a" style="width: 100%; height: 108px;" frameborder="0" __idm_frm__="2147"></iframe>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- SECTION SEVEN - Close APP -->
+                    <div class="content content-seven">
+                        <div class="content-header">
+                            <h2><span>Exit</span> App on back button click</h2>
+                            <p>Works From Home Page</p>
+                        </div>
+                        <div class="content-details">
+                            <h2>App Close Function</h2>
+                            <p>Follow the instructions below</p>
+                            <hr class="line2">
+                            <div class="card">
+                                <p>1. Go to <span class="code">app.compoment.ts</span></p>
+                                <p>2. Add the code below to the <span class="code">initializeApp( ) { }</span> section.</p>
+                                <iframe src="https://www.thiscodeworks.com/embed/60009c12a6d1240014fbed2b" style="width: 100%; height: 183px;" frameborder="0" __idm_frm__="2392"></iframe>
+
+                            </div>
+                            <div class="card">
+                                <h3>Go back to home page from other pages</h3>
+                                <p>1. Go to <span class="code">app.compoment.ts</span></p>
+                                <p>2. Add the code below to the <span class="code">initializeApp( )</span> section.</p>
+                                <iframe src="https://www.thiscodeworks.com/embed/6002b3fc1edee80014c8797b" style="width: 100%; height: 144px;" frameborder="0" __idm_frm__="1670"></iframe>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Content Eight - Splash screen -->
+                    <div class="content content-eight">
+                        <div class="content-header">
+                            <h2><span>Set</span> App Icon & Splash Screen</h2>
+                            <p>Step</p>
+                        </div>
+                        <div class="content-details">
+                            <h2>To set App Icon & Splash Screen</h2>
+                            <p>Follow the instructions below</p>
+                            <hr class="line2">
+                            <div class="card">
+                                <p>1. Create an app icon.png with dimension <span class="code">1024×1024</span> on <a href="https://canva.com" target="_blank">&rarr; Canva.com</a></p>
+                                <p>2. Create an app splash.png with dimension <span class="code">2732×2732</span> on <a href="https://canva.com" target="_blank">&rarr; Canva.com</a></p>
+                                <p>3. Navigate to <span class="code">AppFolder > resources</span> and replace the icon and splash images there with the ones you created.</p>
+                                <p>4. Create an Ionic Account <a href="https://ionicframework.com/signup?source=framework-home">&rarr; Ionic SignUp</a></p>
+                                <p>5. On your Terminal, run following command: <span class="code">ionic login</span></p>
+                                <iframe src="https://www.thiscodeworks.com/embed/6000ad948788870014688cc7" style="width: 100%; height: 98px;" frameborder="0" __idm_frm__="2716"></iframe>
+                                <p>6. Enter you Email and Password when prompted</p>
+                                <p>7. Run <span class="code">ionic cordova resources android</span></p>
+                                <iframe src="https://www.thiscodeworks.com/embed/6000ae228788870014688cc8" style="width: 100%; height: 98px;" frameborder="0" __idm_frm__="2746"></iframe>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CONTENT NINE -->
+                    <div class="content content-nine">
+                        <div class="content-header">
+                            <h2><span>Admob</span> Setup</h2>
+                            <p>Monitize your app with Google Admob</p>
+                        </div>
+                        <div class="content-details">
+                            <h2>Make money from you app with Admob</h2>
+                            <p>Follow the instructions below to integrate Admob into your app</p>
+                            <div class="card">
+                                <p>1. Create an admob account. <a href="https://admob.google.com/home/">&rarr; Admob SignUp</a></p>
+                                <p>2. Create an app</p>
+                                <p>3. Create <span class="code">Banner and Interstitial</span> ad unit</p>
+                                <hr class="line2">
+                                <p>4. Install Admob Plugin. <span class="code"><strong>NOTE:</strong>Replace App ID with yours.</span></p>
+                                <iframe src="https://www.thiscodeworks.com/embed/6000b23c8788870014688cc9" style="width: 100%; height: 128px;" frameborder="0" __idm_frm__="2946"></iframe>
+                                <iframe src="https://www.thiscodeworks.com/embed/6000b2cd8788870014688cca" style="width: 100%; height: 98px;" frameborder="0" __idm_frm__="3037"></iframe>
+                                <hr class="line2">
+                                <p>5. Create a service to handle admob</p>
+                                <iframe src="https://www.thiscodeworks.com/embed/6006d960978dc4001490e664" style="width: 100%; height: 98px;" frameborder="0" __idm_frm__="2254"></iframe>
+                                <hr class="line2">
+                                <p>6. Import <span class="code">AdmobFree and Platform</span> into the <span class="code">admobfree.service.ts</span> file and add to the constructor</p>
+                                <iframe src="https://www.thiscodeworks.com/embed/6006da87978dc4001490e665" style="width: 100%; height: 183px;" frameborder="0" __idm_frm__="2259"></iframe>
+                                <iframe src="https://www.thiscodeworks.com/embed/6006daec978dc4001490e666" style="width: 100%; height: 131px;" frameborder="0" __idm_frm__="2262"></iframe>
+                                <hr class="line2">
+                                <p>7. Add the Interstitial ad config below <span class="code">export class AdmobfreeService {</span></p>
+                                <iframe src="https://www.thiscodeworks.com/embed/6000c4d78788870014688cd5" style="width: 100%; height: 170px;" frameborder="0" __idm_frm__="2311"></iframe>
+                                <hr class="line2">
+                                <p>8. Add Interstitial code to the <span class="code">constructor ( ) { }</span></p>
+                                <iframe src="https://www.thiscodeworks.com/embed/6000c5de8788870014688cd7" style="width: 100%; height: 245px;" frameborder="0" __idm_frm__="2316"></iframe>
+                                <hr class="line2">
+                                <p>9. Call Banner and Interstitial Ad after the <span class="code">constructor ( ) { }</span></p>
+                                <iframe src="https://www.thiscodeworks.com/embed/6006dd7f978dc4001490e667" style="width: 100%; height: 401px;" frameborder="0" __idm_frm__="2409"></iframe>
+                                <hr class="line2">
+                                <p>10. Import Admob and Admob service to <span class="code">app.module.ts</span> and add them to the providers</p>
+                                <iframe src="https://www.thiscodeworks.com/embed/6006de85978dc4001490e668" style="width: 100%; height: 101px;" frameborder="0" __idm_frm__="2502"></iframe>
+                                <iframe src="https://www.thiscodeworks.com/embed/6006dec6978dc4001490e669" style="width: 100%; height: 101px;" frameborder="0" __idm_frm__="2506"></iframe>
+                                <hr class="line2">
+                                <p>11. Call ads on <span class="code">home.page.ts</span></p>
+                                <p>Import admob services</p>
+                                <iframe src="https://www.thiscodeworks.com/embed/6006dfa8978dc4001490e66a" style="width: 100%; height: 98px;" frameborder="0" __idm_frm__="2511"></iframe>
+                                <p>Add services to the <span class="code">constructor ( )</span></p>
+                                <iframe src="https://www.thiscodeworks.com/embed/6006dfe7978dc4001490e66b" style="width: 100%; height: 88px;" frameborder="0" __idm_frm__="2514"></iframe>
+                                <p>Call the Banner ads inside <span class="code">ngOnInit( ) { }</span></p>
+                                <iframe src="https://www.thiscodeworks.com/embed/6006e08f978dc4001490e66c" style="width: 100%; height: 144px;" frameborder="0" __idm_frm__="2517"></iframe>
+                                <p>Call the Banner ads below <span class="code">ngOnInit( ) { }</span></p>
+                                <iframe src="https://www.thiscodeworks.com/embed/6006e11b978dc4001490e66d" style="width: 100%; height: 144px;" frameborder="0" __idm_frm__="2520"></iframe>
+                                <hr class="line2">
+                                <p>Call the interstitial ad from a menu or button click on the home page</p>
+                                <iframe src="https://www.thiscodeworks.com/embed/6007974ad016b700147cef0f" style="width: 100%; height: 98px;" frameborder="0" __idm_frm__="373"></iframe>
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CONTENT TEN -->
+                <div class="content content-ten">
+                    <div class="content-header">
+                        <h2><span>Test</span> on Emulator/Device</h2>
+                        <p>Testing Time</p>
+                    </div>
+                    <div class="content-details">
+                        <h3>To test your app</h3>
+                        <p>Follow the instructions below.</p>
+                        <div class="card">
+                            <h3>Test on Android Emulator (AVD)</h3>
+                            <p>-- First check if your computer can run Android Virtual Device: <a href="https://www.shaileshjha.com/how-to-find-out-if-intel-vt-x-or-amd-v-virtualization-technology-is-supported-in-windows-10-windows-8-windows-vista-or-windows-7-machine/#:~:text=If%20you%20have%20Windows%2010,is%20currently%20enabled%20in%20BIOS"
+                                    target="_blank">Read More</a></p>
+                            <p>-- Enable Android Virtual Device feature: <a href="https://mashtips.com/enable-virtualization-windows-10/" target="_blank">Read More</a></p>
+                            <hr class="line">
+                            <p>1. Open Android Emulator</p>
+                            <p>2. Run the command below</p>
+                            <iframe src="https://www.thiscodeworks.com/embed/6000cb318788870014688cdb" style="width: 100%; height: 98px;" frameborder="0" __idm_frm__="4056"></iframe>
+                            <hr class="line2">
+                            <h3>Test on Android Device</h3>
+                            <p>1. Give the device developer permission</p>
+                            <p>2. Run Command Below</p>
+                            <iframe src="https://www.thiscodeworks.com/embed/6000cbf78788870014688cdc" style="width: 100%; height: 98px;" frameborder="0" __idm_frm__="4101"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CONTENT ELEVEN -->
+                <div class="content content-eleven">
+                    <div class="content-header">
+                        <h2><span>Build</span> Signed Apk</h2>
+                        <p>Ready to upload to Google PlayStore</p>
+                    </div>
+                    <div class="content-details">
+                        <h2>To Build a signed APK</h2>
+                        <P>Follow the instructions below</P>
+                        <hr class="line2">
+                        <div class="card">
+                            <P>1. Change the app details in <span class="code">config.xml</span> file</P>
+                            <hr class="line">
+                            <p>2. Build a non-signed APK</p>
+                            <iframe src="https://www.thiscodeworks.com/embed/6000ce398788870014688cdd" style="width: 100%; height: 98px;" frameborder="0" __idm_frm__="4333"></iframe>
+                            <hr class="line2">
+                            <p>3. Prepare Android for Build/Update</p>
+                            <iframe src="https://www.thiscodeworks.com/embed/600e807540b7950014838713" style="width: 100%; height: 98px;" frameborder="0" __idm_frm__="154"></iframe>
+                            <hr class="line2">
+                            <p>4. Open Android Studio</p>
+
+                            <p class="bold">Details needed at this stage</p>
+                            <ol>
+                                <li>1. Keystore password: </li>
+                                <li>2. Firstname and Lastname:</li>
+                                <li>3. Name of your organizational unit?</li>
+                                <li>4. Name of your organization?</li>
+                                <li>5. Name of your city or locality?</li>
+                                <li>6. Name of your state or province?</li>
+                                <li>7. Two-letter country code?</li>
+                            </ol>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION-TWELVE -->
+                <div class="content content-twelve">
+                    <div class="content-header">
+                        <h2><span>Troubleshoot</span></h2>
+                        <p>Step</p>
+                    </div>
+                    <div class="content-details">
+                        <h2>Troubleshooting secion</h2>
+                        <p>This section contains solution to issues you might face while building your app</p>
+                        <hr class="line2">
+
+                        <div class="card">
+                            <h3>Issue: Admob shows on Android emulator but doesn't show on device</h3>
+                            <hr class="line">
+                            <p>Download APK Editor(version- 1.12.0) here: <a href="https://aapks.com/apk/apk-editor-pro/version/50474334/dl/" target="_blank">Download</a></p>
+                            <p>NOTE: Uninstall this app immediately after use.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- Content Section Closing div below -->
+            </div>
+    </div>
+    </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+<!-- Contact Four -->
+<!-- <div class="content content-four">
+    <div class="content-header">
+        <h2><span>Step</span> no</h2>
+        <p>Step</p>
+    </div>
+    <div class="content-details">
+        
+    </div>
+</div> -->
+
+<!-- <div class="card">
+    <div class="comp">
+        <div>
+            <h3>Comp Name</h3>
+            <p>An ionic component that </p>
+            <hr class="line">
+            <iframe src="https://www.thiscodeworks.com/embed/5fff0aeb0c8c140014566a44" style="width: 100%; height: 134px;" frameborder="0" __idm_frm__="1702"></iframe>
+        </div>
+        <img src="images/card-UI.png" alt="">
+    </div>
+</div>
+<div class="content-line"></div> -->
