@@ -354,3 +354,23 @@ iframe {
 a {
     font-size: 1.6rem;
 }
+
+.credit,
+.credit span,
+.credit a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.credit a {
+    color: var(--light-blue);
+}
+
+.credit span {
+    color: red;
+}
+
+.first-menu {
+    background-color: var(--very-dark);
+    color: #fff;
+}
